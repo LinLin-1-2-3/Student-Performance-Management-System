@@ -1,2 +1,35 @@
-# Student-Performance-Management-System
-A simple system that can interact with local files to add, delete, read, and write students' basic information and grades, and can also rank the grades.
+前言：本人学计科专业，最近刚学完c语言的语法，在寝室闲来无事就打算写个小东西玩玩。还是第一次写这么长的代码，，，这个系统我断断续续写了半个月左右，中途总是会莫名其妙有各种报错，和一些没学过的超纲知识，但是每写完一个小模块的感觉还是很不错的，那种运行成功的成就感嘿嘿
+
+# 学生成绩管理系统:
+一个用C语言实现的控制台学生成绩管理系统，支持学生信息的增删改查、成绩排名和本地文件读写。
+
+# 注意！！！
+一定要将  Student Performance Management System (Data).txt  放到 D 盘根目录才能正常运行！！！
+
+# 功能:
+学生信息包含（学号、姓名、性别、班级、各科成绩）
+1.密码登录
+2.查询学生信息
+3.显示所有学生
+4.学生成绩排名
+5.增加学生信息
+6.修改学生信息
+7.删除学生信息
+
+# 使用说明：
+1.启动程序后输入密码登录（默认密码：12345）。
+2.按菜单提示选择对应功能
+3.数据会自动保存到本地文件。
+
+# 文件说明
+Student Performance Management System v1.0 - Stable Version.c    主程序
+Student Performance Management System (Data).txt                 学生数据文件（运行时自动生成/读取）
+
+# 编码说明
+本项目源码与数据文件均为 GBK 编码（Windows 中文环境）。如在 Linux/macOS 下编译，请先转换为 UTF-8。
+
+# 作者
+LinLin
+
+# License
+仅供学习交流使用，未经允许不得用于商业用途。
